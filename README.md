@@ -17,3 +17,23 @@ TAREFAS
 
 1 - Análise das GFIP:
 
+A empresa envia uma GFIP por competência, ou seja, uma para 01/2020, uma para 02/2020, etc, até 11/2021. O máximo será, portanto, de 20 GFIPs.
+
+Em cada uma delas, consta a lista de trabalhadores por categoria. O objetivo é verificar a quantidade de trabalhadores categoria 01 (CAT 01 na GFIP).
+
+1.1 - Questões a considerar:
+
+- Os pdfs enviados possuem várias páginas e, apesar de se repetirem, não seguem um padrão homogêneo. Há arquivos com 2 folhas, outros com 6, 9, etc. Além disso, a lista buscada não estará sempre na mesma página. No código, a solução encontrada foi buscar texto específico da página buscada, que se repete independente da ordem ou quantidade de páginas no documento ("RELAÇÃO DOS TRABALHADORES"). Esse texto, todavia, consta também em outra página, então foi necessário aliar a ele um excludente ("RESUMO DO FECHAMENTO - EMPRESA") a fim de garantir tratar-se da página correta.
+
+2 - Análise do FGTS:
+
+
+ESTRUTURA DO CÓDIGO
+
+PROBLEMAS A SOLUCIONAR
+
+- PROBLEMAS GFIP
+- PROBLEMAS FGTS
+- PROBLEMAS GERAIS
+
+SUGESTÕES DE MELHORIA
