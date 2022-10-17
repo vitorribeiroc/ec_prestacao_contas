@@ -1,9 +1,9 @@
 # Empresa Cidadã - Automatização da tomada de contas
-INTRODUÇÃO
+## INTRODUÇÃO
 
 Este projeto tem como objetivo desenvolver automatização para análise preliminar dos documentos (extratos de FGTS e GFIP) enviados pelas empresas obrigadas à prestação de contas no âmbito do programa Empresa Cidadã, do município de Niterói - RJ.
 
-DESCRIÇÃO
+## DESCRIÇÃO
 
 O programa Empresa Cidadã foi instituído pela prefeitura de Niterói como medida de enfrentamento à pandemia da COVID-19. Foi iniciado em Abril de 2020 e, após duas prorrogações, encerrado em Novembro de 2021. 
 
@@ -13,27 +13,39 @@ Na prestação de contas (realizada em plataforma própria), as empresas enviam,
 
 O escopo deste projeto engloba a análise de GFIP e FGTS. Na GFIP, deve ser verificado o número de trabalhadores. No FGTS, os recolhimentos mensais.
 
-TAREFAS
+## TAREFAS
 
-1 - Análise das GFIP:
+### 1 - Análise das GFIP:
 
 A empresa envia uma GFIP por competência, ou seja, uma para 01/2020, uma para 02/2020, etc, até 11/2021. O máximo será, portanto, de 20 GFIPs.
 
 Em cada uma delas, consta a lista de trabalhadores por categoria. O objetivo é verificar a quantidade de trabalhadores categoria 01 (CAT 01 na GFIP).
 
-1.1 - Questões a considerar:
+#### 1.1 - Questões a considerar:
 
 - Os pdfs enviados possuem várias páginas e, apesar de se repetirem, não seguem um padrão homogêneo. Há arquivos com 2 folhas, outros com 6, 9, etc. Além disso, a lista buscada não estará sempre na mesma página. No código, a solução encontrada foi buscar texto específico da página buscada, que se repete independente da ordem ou quantidade de páginas no documento ("RELAÇÃO DOS TRABALHADORES"). Esse texto, todavia, consta também em outra página, então foi necessário aliar a ele um excludente ("RESUMO DO FECHAMENTO - EMPRESA") a fim de garantir tratar-se da página correta.
 
-2 - Análise do FGTS:
+### 2 - Análise do FGTS:
 
+A empresa envia um FGTS para cada trabalhador cadastro no programa, limitada ao máximo de 9 funcionários (e, consequentemente, 9 documentos).
 
-ESTRUTURA DO CÓDIGO
+O documento, ao menos no modelo mais enviado, o EXTRATO ANALÍTICO DO TRABALHADOR (EAT), lista os meses em que houve recolhimento do FGTS (os meses nos quais não houve recolhimento não aparecem na lista).
 
-PROBLEMAS A SOLUCIONAR
+#### 2.1 - Questões a considerar:
+
+- Ainda que a maioria das empresas envie o EAT, há diversos outros modelos, o que dificulta a identificação pelo sistema de que aquele documento é um FGTS. No código, optou-se por criar uma lista que congrega textos específicos encontrados no modelo: ['Extrato de Conta do Fundo de Garantia', 'FGTS - EXTRATO ANALITICO DO TRABALHADOR', 'Para uso da Caixa:']. Conforme novos modelos forem aparecendo, a ideia é incluir na lista as novas possibilidades.
+- Identificado o documento como FGTS, surge outra questão: os modelos variam muito entre si, então encontrar as competências em cada um gera uma proliferação de ifs, elifs e elses.
+
+### 3 - Definir o tipo de documento (GFIP ou FGTS):
+
+### 4 - Abrir todos os arquivos da pasta e escrever o arquivo .txt com o resumo:
+
+## ESTRUTURA DO CÓDIGO
+
+## PROBLEMAS A SOLUCIONAR
 
 - PROBLEMAS GFIP
 - PROBLEMAS FGTS
 - PROBLEMAS GERAIS
 
-SUGESTÕES DE MELHORIA
+## SUGESTÕES DE MELHORIA
