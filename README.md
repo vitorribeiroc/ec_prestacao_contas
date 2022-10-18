@@ -93,6 +93,6 @@ Esse é o primeiro projeto que desenvolvo, então tenho total consciência que e
 
 Por isso mesmo, aceito qualquer sugestão de melhoria, seja em questão de eficiência, repetição (tem if, elif, else, for, etc pra cacete e gostaria MUITO de me livrar deles), estrutura lógica, legibilidade ou o que for.
 
-Também gostaria muito de ajuda quanto à possibilidade de deixá-lo mais orientado a objetos.
+Também gostaria de ajuda quanto à possibilidade de deixá-lo mais orientado a objetos. E não entendo absolutamente NADA de deployment, por isso, o que surgir é muito!
 
 Enfim, a ajuda que vier, aceito feliz!
