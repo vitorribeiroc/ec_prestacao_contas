@@ -40,10 +40,17 @@ O documento, ao menos no modelo mais enviado, o EXTRATO ANALÍTICO DO TRABALHADO
 
 ### 3 - Definir o tipo de documento (ec_tipo_dct(pdf)):
 Aqui, o sistema lê o pdf e busca por uma string específica no texto para, a partir dela, definir se é um FGTS ou uma GFIP.
-Após a verificação, ele chama a função adequada (ec_fgts(pdf) ou ec_gfip(pdf)).
+
+Após a verificação, ele chama a função adequada, ec_fgts(pdf) ou ec_gfip(pdf).
+
 Caso não seja possível identificar o tipo de documento, ele retorna a string "Não sei que documento é esse".
 
-### 4 - Abrir todos os arquivos da pasta e escrever o arquivo .txt com o resumo:
+### 4 - Abrir todos os arquivos da pasta e escrever o arquivo .txt com o resumo (ec_pasta(caminho)):
+Essa função abre, um por um, todos os arquivos da pasta indicada em 'caminho', e chama a função acima, ec_tipo_dct(pdf), com cada um deles como argumento.
+
+Os resultados obtidos são escritos em um documento .txt, que será o 'produto final' do sistema.
+
+#### 4.1 - Questões a considerar:
 
 ## ESTRUTURA DO CÓDIGO
 
