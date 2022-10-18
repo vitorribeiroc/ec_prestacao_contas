@@ -57,8 +57,14 @@ Toda GFIP vai trazer um único resultado: uma string do tipo "GFIP: 2021: COMP: 
 Assim, optou-se por salvar o resultado de cada um em uma lista e, com um for loop, escrever resultado por resultado no documento .txt.
 
 Já para os FGTSs, a situação é diferente. Pode haver de 1 a 9 FGTS, e cada um deles trará vários resultados, strings como 'JANEIRO/2020: OK', 'FEVEREIRO/2020: OK', etc.
-Aqui, a solução foi criar um DataFrame, com o nome do arquivo como coluna, e os resultados como linhas.
+Aqui, a solução foi criar um DataFrame, com o nome do arquivo como coluna, os resultados como linhas, e, por fim, escrever esse DataFrame no documento .txt.
 Há ainda o caso limite do FGTS com resultado único "não há recolhimentos em atraso". No momento, o sistema não traz solução para a questão.
+
+### 5 - Informar os dados iniciais (ec_input_dados()):
+Essa função é a inicial e, em teoria, a única com que o usuário sem conhecimentos em programação deverá lidar.
+
+Ela solicita input do usuário para os dados básicos da análise (Nome/CNPJ/Protocolo) e os escreve como cabeçalho no mesmo documento .txt usado pela função acima, ec_pasta(caminho).
+Pede também input do caminho e, com ele, chama ec_pasta(caminho), que é quem, de fato, dispara a análise toda.
 
 ## ESTRUTURA DO CÓDIGO
 
