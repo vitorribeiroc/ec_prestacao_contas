@@ -27,7 +27,7 @@ Em cada uma delas, consta a lista de trabalhadores por categoria. O objetivo é 
 
 ### 2 - Análise do FGTS (ec_fgts(pdf)):
 
-A empresa envia um FGTS para cada trabalhador cadastro no programa, limitada ao máximo de 9 funcionários (e, consequentemente, 9 documentos).
+A empresa envia um FGTS para cada trabalhador cadastrado no programa, limitada ao máximo de 9 funcionários (e, consequentemente, 9 documentos).
 
 O documento, ao menos no modelo mais enviado, o EXTRATO ANALÍTICO DO TRABALHADOR (EAT), lista os meses em que houve recolhimento do FGTS (os meses nos quais não houve recolhimento não aparecem na lista).
 
