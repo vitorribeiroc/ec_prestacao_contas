@@ -82,11 +82,17 @@ Na análise dos documentos, foi usada o módulo Fitz, da bibloteca PyMuPDF, para
 ## PROBLEMAS A SOLUCIONAR
 
 - O problema primordial é que, com o FITZ, ele faz uma varredura do pdf que não parece ideal. Não há qualquer vinculação, por exemplo, da entrada 'NOME:' e o 'NOMEDOFUNCIONÁRIO', que vem logo ao lado. Fica tudo bem solta e, em alguns casos, quase inviabiliza as buscas. Não sei se isso é culpa do pdf ou do módulo. Será possível, com o FITZ, 'ler' o pdf de outra forma? Ou o melhor seria descartá-lo e começar do zero com outra biblioteca/módulo de varredura?
+- Outro problema relevante é que alguns documentos, apesar de no formato .pdf, são, na verdade, imagens. O FITZ não consegue ler nada neles. No código, há uma função, ocr_checker(pdf), cujo intuito seria de verificar se o documento é selecionável ou não e, em caso negativo, fazer o OCR dele. Encontrei algumas possíveis soluções de como fazer isso, mas a maioria demandando instalação de aplicativos externos, o que complicaria no caso de usuários sem experiência. Há alguma forma 'simples' de fazer isso?
 - Há casos em que a GFIP dobra as entradas de 'CAT 01' para determinados funcionários (por exemplo, quando ele sai ou volta de licença-médica). Como a função soma cada '01' encontrado na página selecionada, a conta sai errada. Como evitar que isso aconteça?
 - Ainda na GFIP, utilizei "return f'GFIP: {competência[9:13]}: {competência} / Funcionários: {funcionários}'" para ordenar o resultado a partir do ano da competência, o que facilita a visualização no documento final. O ano seria o slice competência[9:13]. O problema é que isso só se sustenta quando o pdf vem com a orientação de paisagem. Se estiver como retrato, os indexes mudam, e ele não encontra mais o ano. O que poderia ser feito?
 - Em alguns casos, a empresa enviou um único arquivo de FGTS para todos os funcionários. Como separar funcionário por funcionário, e aí então realizar a análise?
-
-- PROBLEMAS FGTS
-- PROBLEMAS GERAIS
+- Como mencionado, o DataFrame que congrega os resultados de ec_fgts(pdf) usa como coluna o nome dos arquivos. Isso, para os usuários, é bem pouco intuitivo. O mais adequado seria que as colunas fossem o nome do funcionário analisado. De que forma pegar esse nome no pdf (o que, provavelmente, também solucionaria o problema anterior)?
 
 ## SUGESTÕES DE MELHORIA
+Esse é o primeiro projeto que desenvolvo, então tenho total consciência que ele não está nada "pythonico". 
+
+Por isso mesmo, aceito qualquer sugestão de melhoria, seja em questão de eficiência, repetição (tem if, elif, else, for, etc pra cacete e gostaria MUITO de me livrar deles), estrutura lógica, legibilidade ou o que for.
+
+Também gostaria muito de ajuda quanto à possibilidade de deixá-lo mais orientado a objetos.
+
+Enfim, a ajuda que vier, aceito feliz!
