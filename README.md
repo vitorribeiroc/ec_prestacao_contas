@@ -66,7 +66,19 @@ Essa função é a inicial e, em teoria, a única com que o usuário sem conheci
 Ela solicita input do usuário para os dados básicos da análise (Nome/CNPJ/Protocolo) e os escreve como cabeçalho no mesmo documento .txt usado pela função acima, ec_pasta(caminho).
 Pede também input do caminho e, com ele, chama ec_pasta(caminho), que é quem, de fato, dispara a análise toda.
 
-## ESTRUTURA DO CÓDIGO
+## ESTRUTURA DO CÓDIGO E CONSIDERAÇÕES
+A estrutura lógica segue descrita no fluxograma abaixo:
+
+![ec_flowchart](https://user-images.githubusercontent.com/97795826/196517370-4e61a23a-4759-4d23-acda-11194f42d8aa.jpg)
+
+Como mencionado, a maior parte dos usuários do sistema será não programadores. É fundamental, portanto, que ele seja o mais acessível possível, e solicite deles o mínimo de participação.
+
+Os documentos são disponibilizados em um site próprio (com o qual não se pretende realizar integração). Dele, um zip é baixado, e os arquivos, salvos em uma pasta própria (que será a variável 'caminho' no input solicitado em ec_input_dados()).
+
+O arquivo .txt é previamente criado. Para fins de centralização, e também de forma a facilitar aos usuários, a ideia é que todas as análises constem no mesmo arquivo, daí ter se usado o .write com append.
+
+Na análise dos documentos, foi usada o módulo Fitz, da bibloteca PyMuPDF, para converter os pdfs em strings.
+
 
 ## PROBLEMAS A SOLUCIONAR
 
