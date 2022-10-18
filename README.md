@@ -71,18 +71,21 @@ A estrutura lógica segue descrita no fluxograma abaixo:
 
 ![ec_flowchart](https://user-images.githubusercontent.com/97795826/196517370-4e61a23a-4759-4d23-acda-11194f42d8aa.jpg)
 
-Como mencionado, a maior parte dos usuários do sistema será não programadores. É fundamental, portanto, que ele seja o mais acessível possível, e solicite deles o mínimo de participação.
+Como mencionado, a maior parte dos usuários do sistema será de não programadores. É fundamental, portanto, que ele seja o mais acessível possível, e solicite deles o mínimo de participação.
 
-Os documentos são disponibilizados em um site próprio (com o qual não se pretende realizar integração). Dele, um zip é baixado, e os arquivos, salvos em uma pasta própria (que será a variável 'caminho' no input solicitado em ec_input_dados()).
+Os documentos são disponibilizados em um site próprio (com o qual não se pretende realizar integração). Dele, um zip é baixado, e os arquivos, salvos em uma pasta (a variável 'caminho' no input solicitado em ec_input_dados()).
 
 O arquivo .txt é previamente criado. Para fins de centralização, e também de forma a facilitar aos usuários, a ideia é que todas as análises constem no mesmo arquivo, daí ter se usado o .write com append.
 
-Na análise dos documentos, foi usada o módulo Fitz, da bibloteca PyMuPDF, para converter os pdfs em strings.
-
+Na análise dos documentos, foi usada o módulo Fitz, da bibloteca PyMuPDF, para converter os pdfs em strings, uma em cada linha.
 
 ## PROBLEMAS A SOLUCIONAR
 
-- PROBLEMAS GFIP
+- O problema primordial é que, com o FITZ, ele faz uma varredura do pdf que não parece ideal. Não há qualquer vinculação, por exemplo, da entrada 'NOME:' e o 'NOMEDOFUNCIONÁRIO', que vem logo ao lado. Fica tudo bem solta e, em alguns casos, quase inviabiliza as buscas. Não sei se isso é culpa do pdf ou do módulo. Será possível, com o FITZ, 'ler' o pdf de outra forma? Ou o melhor seria descartá-lo e começar do zero com outra biblioteca/módulo de varredura?
+- Há casos em que a GFIP dobra as entradas de 'CAT 01' para determinados funcionários (por exemplo, quando ele sai ou volta de licença-médica). Como a função soma cada '01' encontrado na página selecionada, a conta sai errada. Como evitar que isso aconteça?
+- Ainda na GFIP, utilizei "return f'GFIP: {competência[9:13]}: {competência} / Funcionários: {funcionários}'" para ordenar o resultado a partir do ano da competência, o que facilita a visualização no documento final. O ano seria o slice competência[9:13]. O problema é que isso só se sustenta quando o pdf vem com a orientação de paisagem. Se estiver como retrato, os indexes mudam, e ele não encontra mais o ano. O que poderia ser feito?
+- Em alguns casos, a empresa enviou um único arquivo de FGTS para todos os funcionários. Como separar funcionário por funcionário, e aí então realizar a análise?
+
 - PROBLEMAS FGTS
 - PROBLEMAS GERAIS
 
