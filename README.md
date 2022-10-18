@@ -51,6 +51,14 @@ Essa função abre, um por um, todos os arquivos da pasta indicada em 'caminho',
 Os resultados obtidos são escritos em um documento .txt, que será o 'produto final' do sistema.
 
 #### 4.1 - Questões a considerar:
+A forma utilizada para manipular os resultados é diferente por tipo de documento.
+
+Toda GFIP vai trazer um único resultado: uma string do tipo "GFIP: 2021: COMP: 01/2021 / Funcionários: 1". Haverá sempre múltiplas GFIPs. 
+Assim, optou-se por salvar o resultado de cada um em uma lista e, com um for loop, escrever resultado por resultado no documento .txt.
+
+Já para os FGTSs, a situação é diferente. Pode haver de 1 a 9 FGTS, e cada um deles trará vários resultados, strings como 'JANEIRO/2020: OK', 'FEVEREIRO/2020: OK', etc.
+Aqui, a solução foi criar um DataFrame, com o nome do arquivo como coluna, e os resultados como linhas.
+Há ainda o caso limite do FGTS com resultado único "não há recolhimentos em atraso". No momento, o sistema não traz solução para a questão.
 
 ## ESTRUTURA DO CÓDIGO
 
