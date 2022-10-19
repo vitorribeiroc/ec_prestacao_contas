@@ -1,0 +1,245 @@
+Solicitante:XXXXX / CNPJ:XX.XXX.XXX/XXXX-XX / Protocolo:XXXXXXXX.XXXXXX/XXXXX
+GFIPs encontradas:
+GFIP: 2021: COMP: 01/2021 / Funcionários: 1
+GFIP: 2021: COMP: 02/2021 / Funcionários: 1
+GFIP: 2021: COMP: 03/2021 / Funcionários: 1
+GFIP: 2021: COMP: 04/2021 / Funcionários: 1
+GFIP: 2021: COMP: 05/2021 / Funcionários: 1
+GFIP: 2021: COMP: 06/2021 / Funcionários: 1
+GFIP: 2021: COMP: 07/2021 / Funcionários: 1
+GFIP: 2021: COMP: 08/2021 / Funcionários: 1
+GFIP: 2021: COMP: 09/2021 / Funcionários: 1
+GFIP: 2021: COMP: 11/2021 / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+Total de competências encontradas: 20
+
+FGTS recolhidos:
+|    | extrato fgts.pdf   |
+|---:|:-------------------|
+|  0 | JANEIRO/2020: OK   |
+|  1 | FEVEREIRO/2020: OK |
+|  2 | MARCO/2020: OK     |
+|  3 | ABRIL/2020: OK     |
+|  4 | MAIO/2020: OK      |
+|  5 | JUNHO/2020: OK     |
+|  6 | JULHO/2020: OK     |
+|  7 | AGOSTO/2020: OK    |
+|  8 | SETEMBRO/2020: OK  |
+|  9 | OUTUBRO/2020: OK   |
+| 10 | NOVEMBRO/2020: OK  |
+| 11 | DEZEMBRO/2020: OK  |
+| 12 | JANEIRO/2021: OK   |
+| 13 | FEVEREIRO/2021: OK |
+| 14 | MARCO/2021: OK     |
+| 15 | ABRIL/2021: OK     |
+| 16 | MAIO/2021: OK      |
+| 17 | JUNHO/2021: OK     |
+| 18 | JULHO/2021: OK     |
+| 19 | AGOSTO/2021: OK    |
+| 20 | SETEMBRO/2021: OK  |
+| 21 | OUTUBRO/2021: OK   |
+| 22 | NOVEMBRO/2021: OK  |
+| 23 | DEZEMBRO/2021: OK  |
+
+
+Solicitante:XXXXX / CNPJ:XX.XXX.XXX/XXXX-XX / Protocolo:XXXXXXXX.XXXXXX/XXXXX
+GFIPs encontradas:
+GFIP: 2021: COMP: 02/2021 / Funcionários: 1
+GFIP: 2021: COMP: 03/2021 / Funcionários: 1
+GFIP: 2021: COMP: 04/2021 / Funcionários: 1
+GFIP: 2021: COMP: 05/2021 / Funcionários: 1
+GFIP: 2021: COMP: 06/2021 / Funcionários: 1
+GFIP: 2021: COMP: 07/2021 / Funcionários: 1
+GFIP: 2021: COMP: 08/2021 / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+GFIP: : COMP: / Funcionários: 1
+Total de competências encontradas: 17
+
+FGTS recolhidos:
+ 
+|    | extrato fgts.pdf     |
+|---:|:---------------------|
+|  0 | JANEIRO/2020: FALTA  |
+|  1 | FEVEREIRO/2020: OK   |
+|  2 | MARCO/2020: OK       |
+|  3 | ABRIL/2020: OK       |
+|  4 | MAIO/2020: OK        |
+|  5 | JUNHO/2020: OK       |
+|  6 | JULHO/2020: OK       |
+|  7 | AGOSTO/2020: OK      |
+|  8 | SETEMBRO/2020: OK    |
+|  9 | OUTUBRO/2020: OK     |
+| 10 | NOVEMBRO/2020: OK    |
+| 11 | DEZEMBRO/2020: OK    |
+| 12 | JANEIRO/2021: OK     |
+| 13 | FEVEREIRO/2021: OK   |
+| 14 | MARCO/2021: OK       |
+| 15 | ABRIL/2021: OK       |
+| 16 | MAIO/2021: OK        |
+| 17 | JUNHO/2021: OK       |
+| 18 | JULHO/2021: OK       |
+| 19 | AGOSTO/2021: OK      |
+| 20 | SETEMBRO/2021: OK    |
+| 21 | OUTUBRO/2021: OK     |
+| 22 | NOVEMBRO/2021: FALTA |
+| 23 | DEZEMBRO/2021: FALTA |
+
+----------Análise concluída ----------
+
+Solicitante:XXXXX / CNPJ:XX.XXX.XXX/XXXX-XX / Protocolo:XXXXXXXX.XXXXXX/XXXXX
+GFIPs encontradas:
+GFIP: 2020: COMP: 04/2020 / Funcionários: 1
+GFIP: 2020: COMP: 05/2020 / Funcionários: 1
+GFIP: 2020: COMP: 06/2020 / Funcionários: 1
+GFIP: 2020: COMP: 07/2020 / Funcionários: 1
+GFIP: 2020: COMP: 08/2020 / Funcionários: 1
+GFIP: 2020: COMP: 09/2020 / Funcionários: 1
+GFIP: 2020: COMP: 10/2020 / Funcionários: 1
+GFIP: 2020: COMP: 11/2020 / Funcionários: 1
+GFIP: 2020: COMP: 12/2020 / Funcionários: 1
+GFIP: 2021: COMP: 02/2021 / Funcionários: 1
+GFIP: 2021: COMP: 03/2021 / Funcionários: 1
+Total de competências encontradas: 11
+
+FGTS recolhidos:
+ 
+|    | extrato do  fabiana.pdf   |
+|---:|:--------------------------|
+|  0 | JANEIRO/2020: FALTA       |
+|  1 | FEVEREIRO/2020: FALTA     |
+|  2 | MARCO/2020: FALTA         |
+|  3 | ABRIL/2020: FALTA         |
+|  4 | MAIO/2020: FALTA          |
+|  5 | JUNHO/2020: FALTA         |
+|  6 | JULHO/2020: FALTA         |
+|  7 | AGOSTO/2020: FALTA        |
+|  8 | SETEMBRO/2020: FALTA      |
+|  9 | OUTUBRO/2020: FALTA       |
+| 10 | NOVEMBRO/2020: FALTA      |
+| 11 | DEZEMBRO/2020: FALTA      |
+| 12 | JANEIRO/2021: FALTA       |
+| 13 | FEVEREIRO/2021: FALTA     |
+| 14 | MARCO/2021: FALTA         |
+| 15 | ABRIL/2021: FALTA         |
+| 16 | MAIO/2021: FALTA          |
+| 17 | JUNHO/2021: FALTA         |
+| 18 | JULHO/2021: FALTA         |
+| 19 | AGOSTO/2021: FALTA        |
+| 20 | SETEMBRO/2021: FALTA      |
+| 21 | OUTUBRO/2021: FALTA       |
+| 22 | NOVEMBRO/2021: OK         |
+| 23 | DEZEMBRO/2021: OK         |
+
+----------Análise concluída ----------
+
+Solicitante:XXXXX / CNPJ:XX.XXX.XXX/XXXX-XX / Protocolo:XXXXXXXX.XXXXXX/XXXXX
+GFIPs encontradas:
+GFIP: 2020: COMP: 04/2020 / Funcionários: 1
+GFIP: 2020: COMP: 06/2020 / Funcionários: 2
+GFIP: 2020: COMP: 10/2020 / Funcionários: 1
+GFIP: 2020: COMP: 11/2020 / Funcionários: 1
+GFIP: 2020: COMP: 12/2020 / Funcionários: 1
+GFIP: 2021: COMP: 01/2021 / Funcionários: 2
+GFIP: 2021: COMP: 02/2021 / Funcionários: 2
+GFIP: 2021: COMP: 03/2021 / Funcionários: 3
+GFIP: 2021: COMP: 04/2021 / Funcionários: 2
+GFIP: 2021: COMP: 05/2021 / Funcionários: 2
+GFIP: 2021: COMP: 06/2021 / Funcionários: 2
+GFIP: 2021: COMP: 07/2021 / Funcionários: 2
+GFIP: 2021: COMP: 08/2021 / Funcionários: 2
+GFIP: 2021: COMP: 09/2021 / Funcionários: 2
+GFIP: 2021: COMP: 10/2021 / Funcionários: 1
+GFIP: 2021: COMP: 11/2021 / Funcionários: 1
+GFIP: 2021: COMP: 12/2021 / Funcionários: 1
+Total de competências encontradas: 17
+
+FGTS recolhidos:
+ 
+|    | extrato fgts shuff.pdf   |
+|---:|:-------------------------|
+|  0 | JANEIRO/2020: OK         |
+|  1 | FEVEREIRO/2020: OK       |
+|  2 | MARCO/2020: FALTA        |
+|  3 | ABRIL/2020: FALTA        |
+|  4 | MAIO/2020: FALTA         |
+|  5 | JUNHO/2020: FALTA        |
+|  6 | JULHO/2020: FALTA        |
+|  7 | AGOSTO/2020: FALTA       |
+|  8 | SETEMBRO/2020: FALTA     |
+|  9 | OUTUBRO/2020: FALTA      |
+| 10 | NOVEMBRO/2020: FALTA     |
+| 11 | DEZEMBRO/2020: FALTA     |
+| 12 | JANEIRO/2021: FALTA      |
+| 13 | FEVEREIRO/2021: FALTA    |
+| 14 | MARCO/2021: FALTA        |
+| 15 | ABRIL/2021: FALTA        |
+| 16 | MAIO/2021: FALTA         |
+| 17 | JUNHO/2021: FALTA        |
+| 18 | JULHO/2021: FALTA        |
+| 19 | AGOSTO/2021: FALTA       |
+| 20 | SETEMBRO/2021: FALTA     |
+| 21 | OUTUBRO/2021: FALTA      |
+| 22 | NOVEMBRO/2021: FALTA     |
+| 23 | DEZEMBRO/2021: FALTA     |
+
+----------Análise concluída ----------
+
+----------Início da análise----------
+Solicitante:XXXXX / CNPJ:XX.XXX.XXX/XXXX-XX / Protocolo:XXXXXXXX.XXXXXX/XXXXX
+GFIPs encontradas:
+GFIP: : COMP: / Funcionários: 2
+GFIP: : COMP: / Funcionários: 2
+GFIP: : COMP: / Funcionários: 2
+GFIP: : COMP: / Funcionários: 2
+GFIP: : COMP: / Funcionários: 2
+GFIP: : COMP: / Funcionários: 2
+GFIP: : COMP: / Funcionários: 2
+Total de competências encontradas: 7
+
+FGTS recolhidos:
+ 
+|    | extrato fgts sérgio siqueira.pdf   |
+|---:|:-----------------------------------|
+|  0 | JANEIRO/2020: OK                   |
+|  1 | FEVEREIRO/2020: OK                 |
+|  2 | MARCO/2020: OK                     |
+|  3 | ABRIL/2020: OK                     |
+|  4 | MAIO/2020: OK                      |
+|  5 | JUNHO/2020: OK                     |
+|  6 | JULHO/2020: OK                     |
+|  7 | AGOSTO/2020: OK                    |
+|  8 | SETEMBRO/2020: OK                  |
+|  9 | OUTUBRO/2020: OK                   |
+| 10 | NOVEMBRO/2020: OK                  |
+| 11 | DEZEMBRO/2020: OK                  |
+| 12 | JANEIRO/2021: OK                   |
+| 13 | FEVEREIRO/2021: OK                 |
+| 14 | MARCO/2021: OK                     |
+| 15 | ABRIL/2021: OK                     |
+| 16 | MAIO/2021: OK                      |
+| 17 | JUNHO/2021: OK                     |
+| 18 | JULHO/2021: OK                     |
+| 19 | AGOSTO/2021: OK                    |
+| 20 | SETEMBRO/2021: OK                  |
+| 21 | OUTUBRO/2021: OK                   |
+| 22 | NOVEMBRO/2021: OK                  |
+| 23 | DEZEMBRO/2021: OK                  |
+
+----------Análise concluída ----------
