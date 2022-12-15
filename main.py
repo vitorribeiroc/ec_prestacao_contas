@@ -6,10 +6,12 @@ from os.path import isfile, join
 import pandas as pd
 from tabulate import tabulate
 
-def ocr_checker(pdf): #Abre o pdf, checa se ele tem OCR, passa se precisar, e chama a função seguinte.
+#Abre o pdf, checa se ele tem OCR, passa se precisar, e chama a função seguinte.
+def ocr_checker(pdf): 
     pass
 
-def ec_tipo_dct(pdf): #Identifica se o documento é GFIP ou FGTS e chama a função adequada.
+#Identifica se o documento é GFIP ou FGTS e chama a função adequada.
+def ec_tipo_dct(pdf): 
     documento = fitz.open(pdf)
     documento_txt = ''
     tipo_documento = 'Não sei que documento é esse.'
@@ -31,7 +33,8 @@ def ec_tipo_dct(pdf): #Identifica se o documento é GFIP ou FGTS e chama a funç
     else:
         return tipo_documento
 
-def ec_gfip(pdf): #Verifica a competência da GFIP e o número de funcionários no mês.
+#Verifica a competência da GFIP e o número de funcionários no mês.
+def ec_gfip(pdf): 
     gfip = fitz.open(pdf)
     pagina_buscada = ''
     
@@ -51,7 +54,8 @@ def ec_gfip(pdf): #Verifica a competência da GFIP e o número de funcionários 
     
     return f'GFIP: {competência[9:13]}: {competência} / Funcionários: {funcionários}'
 
-def ec_fgts(pdf): # Verifica os depósitos de FGTS
+# Verifica os depósitos de FGTS
+def ec_fgts(pdf): 
     lista_fgts = []
     lista_anos = ['2020','2021']
     lista_deposito = [
@@ -97,7 +101,8 @@ def ec_fgts(pdf): # Verifica os depósitos de FGTS
 
     return df_fgts
 
-def ec_pasta(caminho):''' Abre todos os arquivos contidos na pasta do caminho indicado como argumento e escreve no arquivo txt.'''
+''' Abre todos os arquivos contidos na pasta do caminho indicado como argumento e escreve no arquivo txt.'''
+def ec_pasta(caminho):
     arquivos_buscados = [arquivo for arquivo in listdir(caminho)]
     resultados_fgts = pd.DataFrame()
     resultados_gfip = []
@@ -128,7 +133,8 @@ def ec_pasta(caminho):''' Abre todos os arquivos contidos na pasta do caminho in
         arquivo_análise.write('\n')
         arquivo_análise.write('----------Análise concluída ----------\n')
 
-def ec_input_dados(): #Recebe input do usuário sobre o protocolo analisado e chama as demais funções.
+#Recebe input do usuário sobre o protocolo analisado e chama as demais funções.
+def ec_input_dados():
     solicitante = input('Solicitante: ')
     CNPJ = input('CNPJ: ')
     protocolo = input('Protocolo: ')
@@ -144,3 +150,5 @@ def ec_input_dados(): #Recebe input do usuário sobre o protocolo analisado e ch
 
     ec_pasta(caminho)
 
+if __name__ == "__main__":
+    print("funcionando")
